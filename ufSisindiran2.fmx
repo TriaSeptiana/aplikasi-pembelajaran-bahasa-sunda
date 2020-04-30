@@ -1,0 +1,313 @@
+object fSisindiran3: TfSisindiran3
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 606
+  ClientWidth = 377
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 377.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 377.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000000000001000000}
+      TextSettings.HorzAlign = Center
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label2: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 112.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000100000004000000}
+      Text = 'SISINDIRAN'
+      TabOrder = 2
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 340.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cleareditbutton'
+      Text = 'SpeedButton1'
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      Text = 'SpeedButton2'
+    end
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 558.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style, FontColor]
+      Size.Width = 377.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '(C) 2020 BY PKL'
+      TabOrder = 0
+    end
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = claMoccasin
+    Position.X = -8.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 512.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 377.000000000000000000
+    Size.Height = 510.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Lines.Strings = (
+        #216' Sisindiran'
+        '    Sisindiran t'#233'h asalna tina kecap sindir, anu ngandung harti'
+        '    omongan atawa caritaan anu dibalibirkeun, henteu togmol.'
+        '    Luyu jeung '#233'ta, dina sastra Sunda anu disebut sisindiran'
+        '    t'#233'h nya'#233'ta karya sastra nu ngagunakeun rakitan basa'
+        '    kalawan dibalibirkeun. Dina sisindiran, eusi atawa maksud '
+        '    anu dikedalkeun t'#233'h dibungkus ku cangkangna. Wangunan'
+        '    sisindiran t'#233'h kauger ku purwakanti, jumlah engang dina '
+        '    unggal padalisan, jeung jumlah padalisan dina unggal '
+        '    padana.'
+        '    Ku kituna, sisindiran t'#233'h kaasup kana wangun ugeran (puisi).'
+        '    Upama ditilik tina wangun jeung cara ng'#233'br'#233'hkeunana.'
+        ''
+        '    sisindiran dibagi jadi tilu golongan nya'#233'ta:'
+        '    (1) rarakitan; '
+        '    (2) paparikan, jeung '
+        '    (3) wawangsalan.'
+        ''
+        '    Ditilik tina eusina, rarakitan jeung paparikan bisa '
+        '    dipasing-pasing jadi tilu golongan, nya'#233'ta:'
+        '    (1) silihasih; '
+        '    (2) piwuruk; jeung '
+        '    (3) s'#233's'#233'br'#233'd.'
+        ''
+        '    Conto sisindiran:'
+        '    Aya roda na tanjakan'
+        '    Katinggang ku pangpung jengkol'
+        '    Aya ronda gogoakan '
+        '    Katinggang ku hulu kohkol'
+        ''
+        #216' Paparikan'
+        '    Paparikan t'#233'h nya'#233'ta wangun sisindiran. '
+        '    Kecap paparikan asalna tina kecap '#8221'par'#233'k'#8221' anu hartina'
+        '    '#8221'deukeut'#8221'. Paparikan diwangun ku cangkang jeung eusi, '
+        '    anu padeukeut sorana, sarta murwakanti laraswekas'
+        '    dina unggal padalisanna. Ari jumlah padalisan dina '
+        '    sapadana, kudu jengkep: dua, opat, genep, dalapan, '
+        '    jst. Satengahna tina jumlah padalisan t'#233'h cangkangna, '
+        '    satengahna deui eusi. Ari r'#233'ana engang dina unggal'
+        '    padalisan umumna dalapan engang.'
+        ''
+        '    Contona paparikan:'
+        '    Boboko ragrag di imah'
+        '    Ninggang kana pileuiteun'
+        '    Mun bogoh montong ka s'#233'mah'
+        '    Ari anggang sok leungiteun'
+        ''
+        '    Paparikan di luhur diwangun ku opat padalisan; '
+        '    dua cangkang, dua eusi. Padalisan kahiji dina'
+        '    cangkang, padeukeut sorana sarta murwakanti'
+        '    tungtungna jeung padalisan kahiji dina eusi.'
+        '    Padalisan kadua dina cangkang padeukeut'
+        '    sorana sarta murwakanti tungtungna jeung'
+        '    padalisan kadua dina eusi. Upama nilik kana '
+        '    eusina, paparikan bisa dipasing-pasing jadi:'
+        '    paparikan silihasih, paparikan piwuruk, jeun'
+        '    g paparikan s'#233's'#233'br'#233'd.'
+        ''
+        '   Paparikan Silih Asih Paparikan silih asih nya'#233'ta paparikan'
+        '   nu eusina ngeunaan silihasih, cinta, atawa birahi.'
+        '   Contona:'
+        '   Meuncit meri dina rakit'
+        '   Boboko wadah bakatul'
+        '   Lain nyeri ku panyakit'
+        '   Kabogoh direbut batur'
+        ''
+        '   hiji deui :'
+        '   Lain Bangban lain Pacing'
+        '   Lain kananga kuduna'
+        '   Lain babad lain tanding '
+        '   Lain kadinya kuduna.'
+        ''
+        '   Paparikan Piwuruk: Paparikan piwuruk nya'#233'ta paparikan '
+        '   nu eusina piwuruk atawa nas'#233'hat. Contona:'
+        '   Ka kulah nyiar kapiting'
+        '   Ngocok endog bobodasna'
+        '   Ulah sok liar ti peuting'
+        '   Osok loba gogodana.'
+        ''
+        '   Paparikan S'#233's'#233'br'#233'd Paparikan s'#233's'#233'br'#233'd nya'#233'ta paparikan '
+        '   anu eusina banyol, lulucon, jeung cawad (kritik).'
+        ''
+        '   Contona:'
+        '   Daun hiris dibeungkeutan'
+        '   Dibawa ka juru leuit.'
+        '   Anu geulis ngadeukeutan'
+        '   Hayangeun dib'#233'r'#233' duit.'
+        ''
+        '   Sapanjang jalan Cirebon'
+        '   Jalan butut diaspalan.'
+        '   Sapanjang dijajah Nipon'
+        '   Baju butut tatambalan.'
+        ''
+        ' '#216' Rarakitan'
+        ''
+        '   Rarakitan t'#233'h nya'#233'ta salasahiji wanda sisindiran anu'
+        '   diwangun ku cangkang jeung eusi. '#201'ta cangkang jeung'
+        '   eusi t'#233'h pada papak di puhuna (mindoan kawit). Salian '
+        '   ti '#233'ta, antara cangkang jeung eusi t'#233'h kudu sasora sarta '
+        '   murwakanti engang panungtungna dina unggal padalisan'
+        '   (laraswekas). Tapi laraswekas dina sisindiran mah, aya '
+        '   kalana laraswekas anu kaselang heula, siga pacorok. '
+        '   Ari jumlah engangna dina unggal padalisan aya dalapan '
+        '   engang. Jumlah padalisan dina sapadana mangrupa '
+        '   bilangan jangkep; satengahna cangkang jeung '
+        '   satengahna deui eusi. Kiwari anu popul'#233'r t'#233'h anu '
+        '   sapadana diwangun ku opat padalisan: dua '
+        '   cangkang jeung dua eusi.'
+        ''
+        '   Contona:'
+        '   Mihap'#233' sisir jeung minyak'
+        '   Kad'#233' kaancloman leungeun.'
+        '   Mihap'#233' pikir jeung niat'
+        '   Kad'#233' kaangsonan deungeun.'
+        ''
+        '   Ditilik tina eusina, rarakitan t'#233'h bisa digolongkeun '
+        '   kana tilu golongan, nya'#233'ta rarakitan silihasih, '
+        '   rarakitan piwuruk jeung rarakitan s'#233's'#233'br'#233'd.'
+        ''
+        '   Rarakitan silihasih, nya'#233'ta anu eusina ngeunaan '
+        '   silihasih, cinta, atawa birahi;'
+        '   contona:'
+        '   Sapanjang jalan Sor'#233'ang'
+        '   Moal wel'#233'h diaspalan.'
+        '   Sapanjang tacan kasorang'
+        '   Moal wel'#233'h diakalan.'
+        ''
+        '   Rarakitan piwuruk, nya'#233'ta rarakitan anu eusina '
+        '   piwuruk atawa nas'#233'hat;'
+        '   contona:'
+        '   Sing getol nginum jamu'
+        '   Nu guna nguatkeun urat.'
+        '   Sing getol neangan '#233'lmu'
+        '   Nu guna dunya ah'#233'rat.'
+        ''
+        '   Rarakitan s'#233's'#233'br'#233'd, nya'#233'ta rarakitan anu eusina '
+        '   banyol, lulucon, atawa cawad (kritik); contona:'
+        '   Rarasaan ngala mayang'
+        '   Teu nyaho cangkeuteuk leuweung.'
+        '   Rarasaan kon'#233'ng umyang'
+        '   Teu nyaho cakeutreuk hideung.'
+        ''
+        ' '#216' Wawangsalan'
+        '     Wawangsalan t'#233'h nya'#233'ta sisindiran anu diwangun '
+        '     ku cangkang jeung eusi. Dina sindir diwangun deui '
+        '     ku cangkang jeung wangsal. Anu dijieun wangsalna'
+        '     t'#233'h tara dit'#233't'#233'lakeun, tapi kudu dit'#233'angan tina'
+        '     bagian eusi. Wangsal t'#233'h sok murwakanti jeung'
+        '     salah sahiji kecap anu aya dina bagian eusi t'#233'a. '
+        '     Nilik kana wangunna, wawangsalan t'#233'h diwangun'
+        '     ku dua padalisan: sapadalisan sindir, sapadalisan '
+        '     deui eusi. Jumlah engang dina unggal padalisan '
+        '     nya'#233'ta dalapan engang.'
+        '     Conto:'
+        '     '#8226' Teu beunang di hurang sawa,teu beunang '
+        '        dipikameumeut: hartina '#8216'Simeut'#8217
+        '     '#8226' Belut Sisit saba darat kapiraray siang wengi: :'
+        '        harti '#8216' Oray'#8217
+        '     '#8226' Teu beunang di rangkong kolong,teu beunang '
+        '        dipikahayang : hartina '#8216'Hayam'#8217'.')
+      StyledSettings = [Style, FontColor]
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 14.000000000000000000
+      Align = Client
+      Size.Width = 377.000000000000000000
+      Size.Height = 510.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 377.000000000000000000
+      Viewport.Height = 510.000000000000000000
+    end
+  end
+  object MultiView1: TMultiView
+    MasterButton = SpeedButton2
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 217.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 510.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object ListBox1: TListBox
+      Align = Client
+      Margins.Bottom = 20.000000000000000000
+      Size.Width = 250.000000000000000000
+      Size.Height = 490.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 250.000000000000000000
+      Viewport.Height = 490.000000000000000000
+      object ListBoxItem3: TListBoxItem
+        TextSettings.HorzAlign = Center
+        StyledSettings = [Family, Size, Style, FontColor]
+        Size.Width = 246.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Link Videos'
+        OnClick = ListBoxItem3Click
+      end
+    end
+  end
+end

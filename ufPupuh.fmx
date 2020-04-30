@@ -1,0 +1,252 @@
+object fPupuh2: TfPupuh2
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 604
+  ClientWidth = 366
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 366.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 366.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000000000001000000}
+      TextSettings.HorzAlign = Center
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label2: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 144.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000100000004000000}
+      Text = 'Pupuh'
+      TabOrder = 2
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 329.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cleareditbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 556.000000000000000000
+    Size.Width = 366.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object Rectangle5: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style, FontColor]
+      Size.Width = 366.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '(C) 2020 BY PKL'
+      TabOrder = 0
+    end
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = claMoccasin
+    Position.X = -12.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object SpeedButton2: TSpeedButton
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'drawertoolbutton'
+    Text = 'SpeedButton2'
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 366.000000000000000000
+    Size.Height = 508.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      '  Pupuh'
+      '     Pupuh t'#233'h nya'#233'ta wangun puisi lisan tradisional Sunda '
+      '     (atawa mun di Jawa, katelah og'#233' macapat) nu tangtu '
+      '     pola (jumlah engang jeung sora) kalimahna. Nalika can '
+      '     pati wanoh kana wangun puisi/sastra mod'#233'rn, pupuh '
+      '     ilahar dipak'#233' dina ngawangun wawacan atawa dangding,'
+      '     luyu jeung watek masing-masing pupuh nu ngawakilan'
+      '     kaayaan kajadian nu keur dicaritakeun.'
+      '     S'#233'j'#233'n ti '#233'ta, dina istilah karawitan '
+      '     sarua jeung sekar irama merdika nya'#233'ta, wirahma '
+      '     b'#233'bas nu kauger ku aturan nu tangtu tur mibanda '
+      '     watek nu ngagambarkeun masing-masing pupuh.'
+      ''
+      ''
+      '      Eusi'
+      '      1'#9'Ugeran Pupuh'
+      '      2'#9'Rupa-rupa Pupuh'
+      '      3'#9'B'#233'dana Sekar Ageung jeung Sekar Alit'
+      '      4'#9'Rujukan'
+      '      5'#9'Tumbu kaluar'
+      ''
+      '  Ugeran Pupuh'
+      '      Pupuh t'#233'h kauger ku wangun jeung eusina. Dumasar '
+      '   wangunana, pupuh t'#233'h kauger ku guru wilangan'
+      '   jeung guru lagu. Guru wilangan nya'#233'ta patokan '
+      '   jumlah padalisan dina unggal pada sarta lobana '
+      '  engang dina unggal padalisan, sedengkeun guru lagu'
+      '  nya'#233'ta patokan sora vokal dina tungtung unggal padalisan. '
+      '  Ari patali eusina, pupuh kudu ngagambarkeun sipatna '
+      '  s'#233'wang-s'#233'wangan, naha patali jeung kabungah, kasedih, '
+      '  atawa heureuy misalnya, Rakitan/ugeran pupuh t'#233'h biasa'
+      '  dipak'#233' dina karangan-karangan pondok (dangding, guguritan, '
+      '  jeung rumpaka saw'#233'r). Lian ti '#233'ta, aya og'#233' nu mak'#233'e rakitan '
+      '  pupuh dina karangan panjang atawa naratif (wawacan).'
+      '  Maca wacana puisi dina wangun pupuh t'#233'h biasana'
+      '  dihariringkeun atawa ditembangkeun.'
+      ''
+      '  Rupa-rupa Pupuh'
+      '      Pupuh aya tujuh welas rupa anu dij'#233'ntr'#233'keun ieu di handap.'
+      ''
+      '     1.  Asmarandana, ngagambarkeun rasa kabirahian, '
+      '          deudeuh asih, nyaah.'
+      '     2.  Balakbak, ngagambarkeun heureuy atawa banyol.'
+      '     3.  Dangdanggula, ngagambarkeun katengtreman,'
+      '           kawaasan, kaagungan, jeung kagumbiraan.'
+      '     4.  Durma, ngagambarkeun rasa ambek, ged'#233' hat'#233', '
+      '          atawa sumanget.'
+      '     5.  Gambuh, ngagambarkeun kasedih, kasusah, '
+      '          atawa kanyeri.'
+      '     6.  Gurisa, ngagambarkeun jelema nu ngalamun '
+      '          atawa malaweung.'
+      '     7.  Jurudemung, ngagambarkeun nu bingung,'
+      '          susah ku pilakueun.'
+      '     8.  Kinanti, ngagambarkeun nu keur kesel nungguan, '
+      '          deudeupeun, atawa kanyaah.'
+      '     9.  Ladrang, ngagambarkeun nu resep banyol bari'
+      '           nyindiran.'
+      '    10. Lambang, ngagambarkeun nu resep banyol tapi '
+      '          banyol nu aya pikiraneunana.'
+      '    11. Magatru, ngagambarkeun nu sedih, handeueul '
+      '          ku kalakuan sorangan, mapatahan.'
+      '    12. Maskumambang, ngagambarkeun kanalangsaan,'
+      '          sedih bari ngenes hat'#233'.'
+      '    13. Mijil, ngagambarkeun kasedih tapi bari ged'#233' harepan.'
+      '    14. Pangkur, ngagambarkeun rasa ambek nu kapegung,'
+      '           nyanghareupan tugas nu beurat.'
+      '    15. Pucung, ngagambarkeun rasa ambek ka diri sorangan, '
+      '          atawa keuheul ku lantaran teu panuju hat'#233'.'
+      '    16. Sinom, ngagambarkeun kagumbiraan, kadeudeuh.'
+      '    17. Wirangrong, ngagambarkeun nu kawiwirangan, '
+      '          '#233'ra ku polah sorangan.'
+      '    Aya nu kaasup sekar ageung (wanda laguna rupa-rupa) '
+      '    nya'#233'ta Kinanti, Sinom, Asmarandana, jeung Dangdanggula'
+      
+        '    (mindeng disingget jadi KSAD), sarta sekar alit (wanda lagun' +
+        'a '
+      '    ngan sarupa) nya'#233'ta Balakbak, Durma, Gambuh, Gurisa, '
+      '    Jurudemung, Lambang, Ladrang, Magatru, Maskumambang,'
+      '    Mijil, Pangkur, Pucung, jeung Wirangrong.'
+      ' '
+      ' B'#233'dana Sekar Ageung jeung Sekar Alit'
+      '  1. Sekar Ageung mah geus mak'#233' wanda tembang jeung'
+      '       rumpakana panjang, saperti ieu di handap.'
+      '      *Pupuh Kinanti: Kidung, Balaka, Layar Putri, jsb.'
+      '      *Pupuh Sinom: Banjarsinom, Ciawian, Cirebonan, jsb.'
+      '      *Pupuh Asmarandana: Bangkong, Candrawulan, jsb.'
+      '      *jst.'
+      '  2. Sekar Alit mah cara nembangkeunana kurang variatif '
+      '      jeung lolobana rumpakana parondok:'
+      '      nama tidak sah; misalnya, terlalu banyak.')
+    StyledSettings = [FontColor]
+    TextSettings.Font.Family = 'Times New Roman'
+    TextSettings.Font.Size = 14.000000000000000000
+    Align = Client
+    Size.Width = 366.000000000000000000
+    Size.Height = 508.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Viewport.Width = 366.000000000000000000
+    Viewport.Height = 508.000000000000000000
+  end
+  object MultiView1: TMultiView
+    TargetControl = Layout1
+    MasterButton = SpeedButton2
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 209.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 508.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 3
+    object ListBox1: TListBox
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 508.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 250.000000000000000000
+      Viewport.Height = 508.000000000000000000
+      object ListBoxItem3: TListBoxItem
+        TextSettings.HorzAlign = Center
+        StyledSettings = [Family, Size, Style, FontColor]
+        Size.Width = 246.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Link Videos'
+        OnClick = ListBoxItem3Click
+      end
+    end
+  end
+end
